@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.HeaderPart{
+    height: 250px;
+    width: 100%;
+    position: relative;
+}.HeaderPart img{
+    position: absolute;
+    width: 1298px;
+    height: 250px;
+}.HeaderPart .HeaderElements{
+    position: absolute;
+    width: 100%;
+}.HeaderPart .HeaderElements .InputZone {
+    width: 44%;
+    height: 31px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}.HeaderPart .HeaderElements .InputZone input{
+    outline: none;
+    padding: 10px 48px 10px 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    height: 100%;
+}.HeaderPart .HeaderElements .InputZone button{
+    position: absolute;
+    height: 51px;
+    width: 10.5%;
+    padding: 10px 10px 10px 15px;
+    border-top-right-radius: 10px;
+    outline: none;
+    border: none;
+    border-bottom-right-radius: 10px;
+    background: black;
+    transition: opacity 0.3s;
+}.HeaderPart .HeaderElements .InputZone button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}.HeaderPart .HeaderElements h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.InformationElements{
+    background-color: wheat;
+    height: 447px;
+}.InformationElements .blocs .bloc h4{
+    color: #a0a0a0;
+}.InformationElements .blocs{
+    width: 85%;
+    margin: auto;
+    height: 157px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 63px;
+    background: white;
+    border-radius: 15px;
+}.InformationElements .blocs .bloc4{
+    margin-right: 10px;
+}.InformationElements .blocs .bloc1{
+    margin-left: -25px;
+}.InformationElements .blocs .bloc{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+}.InformationElements .blocs .bloc h4{
+    position: relative;
+    top: 20px;
+}
+
+#mapid { 
+    height: 180px; 
+}
