@@ -9,13 +9,15 @@ body{
     position: relative;
 }.HeaderPart img{
     position: absolute;
-    width: 1298px;
-    height: 250px;
+    width: 100%;
+    min-width: 1400px;
+    height: 100%;
 }.HeaderPart .HeaderElements{
     position: absolute;
     width: 100%;
 }.HeaderPart .HeaderElements .InputZone {
     width: 44%;
+    max-width: 572px;
     height: 31px;
     margin: auto;
     position: relative;
@@ -53,10 +55,13 @@ body{
 }.InformationElements .blocs .bloc h4{
     color: #a0a0a0;
 }.InformationElements .blocs{
-    width: 85%;
+    width: 79%;
+    max-width: 1105px;
     margin: auto;
     height: 157px;
     display: flex;
+    z-index: 1;
+    box-shadow: 3px 2px 32px 0px rgb(0, 0, 0,0.35);
     justify-content: space-around;
     position: relative;
     bottom: 63px;
@@ -76,6 +81,9 @@ body{
     top: 20px;
 }
 
-#mapid { 
-    height: 180px; 
+#id { 
+    position: relative;
+    height: 100%;
+    z-index: 0;
+    bottom: 156px;
 }
